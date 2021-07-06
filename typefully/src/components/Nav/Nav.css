@@ -6,6 +6,8 @@
   margin: 0;
   box-shadow: 0 1px 3px rgba(237, 246, 229, 0.12),
     0 1px 2px rgba(237, 246, 229, 0.26);
+  justify-content: space-between;
+  z-index: 99;
 }
 
 .nav-left {
@@ -13,9 +15,13 @@
   align-items: center;
 }
 
+.nav-right {
+  margin-right: 40px;
+}
+
 .flash-logo {
   margin-left: 20px;
-  height: 121px;
+  height: 111px;
 }
 
 .flash-logo-text {
@@ -24,4 +30,10 @@
   letter-spacing: 1px;
   margin: 0 -21px;
   color: #edf6e5;
+}
+
+.nav-in-link {
+  font-size: 23px;
+  color: #edf6e5;
+  font-weight: 800;
 }

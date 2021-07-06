@@ -9,6 +9,12 @@ const Nav = () => {
                 <img className="flash-logo" src = {logo} alt="logo" />
                 <p className = "flash-logo-text">Typefully</p>
             </div>
+            <div className="nav-right">
+                <a 
+                target="_blank" className="nav-in-link" href="https://www.linkedin.com/in/shristijalan/in" rel="noreferrer">
+                    CONTACT ME
+                </a>
+            </div>
         </div>
     )
 }
