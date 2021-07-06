@@ -1,0 +1,27 @@
+.nav-container {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  background: #f38ba0;
+  margin: 0;
+  box-shadow: 0 1px 3px rgba(237, 246, 229, 0.12),
+    0 1px 2px rgba(237, 246, 229, 0.26);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.flash-logo {
+  margin-left: 20px;
+  height: 121px;
+}
+
+.flash-logo-text {
+  font-family: "Bangers", cursive;
+  font-size: 60px;
+  letter-spacing: 1px;
+  margin: 0 -21px;
+  color: #edf6e5;
+}
